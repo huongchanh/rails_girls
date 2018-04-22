@@ -13,7 +13,22 @@
  *= require_tree .
  *= require_self
  */
-body { padding-top: 100px; }
+body { padding-top: 100px; background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/christmas-colour.png)}
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+.navbar {
+  min-height: 25px;
+  background-color: #a1afc9 !important;
+  background-image: none !important;
+}
+.navbar a.brand { font-size: 15px; }
+.navbar a.brand:hover {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+footer {
+  background-color: #a1afc9;
+  padding: 10px 0;
+}
